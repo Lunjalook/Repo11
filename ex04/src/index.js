@@ -20,3 +20,4 @@ function myArrayFunction(temps) {
 }
 console.log(myArrayFunction(temps));
 
+module.exports = myArrayFunction;
