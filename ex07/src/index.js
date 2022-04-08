@@ -9,7 +9,7 @@ function multiplyArrayFunction(myArray) {
         }
     }
 
-    var arr = [[product], [sum]]
+    var arr = [product, sum]
     return arr;
 }
 
