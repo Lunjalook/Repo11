@@ -1,7 +1,10 @@
 function splitArrayInGroups(arr, n) {
+
     var result = [];
-    for (var i = 0; i < arr.length; i += n) {
-        result.push(arr.slice(i, i + n));
+    for (var i = 0; i < n; i++) {
+
+        result.push(arr.slice(i * n, (i + 1) * n));
+
     }
     return result;
 }
