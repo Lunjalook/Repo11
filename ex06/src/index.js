@@ -1,7 +1,7 @@
 
-var myNestedArray = [["Toblerone", 5]];
+var myNestedArray = [["Toblerone", 5], ["Milka"], 3];
 function myNestedFunction(arr) {
-    arr.push(["Milka", 3]);
+    var myNestedArray = arr;
     return myNestedArray;
 }
 
